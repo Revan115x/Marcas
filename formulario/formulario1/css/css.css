@@ -1,0 +1,52 @@
+body {
+    background-color: #e8c6c6;
+}
+
+form{
+    text-align: center;
+    color: #C03;
+    font-family: tahoma;
+    padding: 5px;
+    width: 50%;
+    margin: auto;
+    border: 5px;
+    border-radius: 5px;
+
+}
+
+fieldset{
+    width: 95%;
+    padding: 12px;
+    border: solid 1px #eee;
+    text-align: center;
+}
+
+label{
+    color: #555555;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 3px;
+    padding: 3px;
+    width: 150px;
+    text-align: center;
+}
+
+input{
+    align-items: center;
+    height: 30px;
+    width: 300px;
+    padding: 5px 8px;
+    border: 1px solid #aaa;
+    color:#888;
+    font-size: 12px;
+    padding-right: 30px;
+}
+
+.boton{
+    font-size: 12px;
+    border: none;
+    font-weight: bolder;
+    align-items: center;
+    text-align: center;
+    width: 130px;
+    padding: 5px;
+}
