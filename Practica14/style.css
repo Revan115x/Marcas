@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: letra;
+}
+
+@font-face {
+    font-family: letra;
+    src: url(fonts/Muli-Regular.ttf);
+}
+
+.encabezado{
+    height: 60px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: aqua;
+    text-align: center;
+}
