@@ -22,12 +22,51 @@
 }
 
 #menu{
-    top: 20px;
+    top: 50px;
     left: 30px;
     width: 350px;
     height: 200px;
+    margin-top: 20px;
+    padding-left: 30px;
 }
 
-.enlaces{
-    margin: 0px;
+#flex{
+    display: flex;
+}
+
+#menu>a{
+    display: block;
+    text-decoration: none;
+    color: #83737d;
+    border: 1px solid #83737d; 
+    width: 90%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#menu>a:hover{
+    background-color: #83737d;
+    color: white;
+}
+#lateral{
+    width: 250px;
+    text-align: justify;
+    padding: 15px;
+    color: #83737d;
+}
+
+#contenedor{
+    background-color: #83737d;
+    border-radius:10px;
+    padding: 40px;
+    width: 600px;
+}
+
+.img1{
+    height: 150px;
+    margin-right: 10px;
+}
+
+.img2{
+    height: 150px
 }
