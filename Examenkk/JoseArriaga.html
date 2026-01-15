@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jose Arriaga</title>
+</head>
+<body>
+
+
+    <style>
+
+        @font-face {
+            font-family: fuente1;
+            src: url(fonts/Muli.ttf);
+        }
+
+        @font-face {
+            font-family:fuente2 ;
+            src: url(fonts/DancingScript.ttf);
+        }
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        /*body{
+            height: 2000px;
+            width: 100%;
+        }*/
+
+        .encabezado{
+            background-image: url(img/fondo1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 400px;
+        }
+
+        .menu{
+            display: flex;
+            width: 50%;
+            /*margin: auto;*/ 
+        }
+
+        .menu>a{
+            height: 100%;
+            width: 25%;
+            padding-top: 10px;
+            text-decoration: none;
+            color: white;
+            margin: 30px;
+            font-family: fuente1;
+            text-align: center;
+        }
+
+        .menu>a:hover{
+            color: #38edf0;
+            font-weight: bolder;
+        }
+
+
+        .logo{
+            margin-top: 150px;
+            margin-left: 10%;
+        }
+
+        .logo>h1{
+            font-family: fuente2;
+        }
+
+        hr{
+            height: 10px;
+            background-color: #38edf0;
+        }
+
+
+        form{
+            margin: auto;
+            background-color: #0c6770;
+            color: white;
+            height: 400px;
+            width: 50%;
+        }
+
+        fieldset{
+            margin-bottom: 10px;
+            margin-top: 10px;
+            padding: 20px;
+            width: 80%;
+            margin-left: 10%;
+            border-color: white;
+        }
+
+        legend{
+            text-align: right;
+        }
+
+        input,select,textarea{
+            width: 60%;
+            height: 30px;
+            border-radius: 2px;
+            font-family: fuente1;
+            padding: 5px;
+            margin: 2px;
+        }
+
+        .ajustar{
+            margin-left: 115px;
+        }
+
+        .ajustar1{
+            margin-left: 40%;
+            display: block;
+        }
+
+        .ajustar2{
+            margin-left: 60%;
+        }
+
+        .encabezado1{
+            background-image: url(img/fondo1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 20%;
+        }
+
+        .imagen1{
+            width:40%;
+            height: 50%;
+            font-family: fuente2;
+            font-size: 250%;
+            text-align: center;
+        }
+
+        .imagen1>a{
+            position: absolute;
+            color:#38def0;
+            text-decoration: none;
+            padding-top: 100px;
+            padding-left: 120px;
+        }
+
+        .imagen1>img{
+            height: 250px;
+            box-shadow: 10px 10px 0px 0px ;
+        }
+
+        .imagen2{
+            padding-left: 50%;
+            width:40%;
+            height: 50%;
+            font-family: fuente2;
+            font-size: 250%;
+            text-align: center;
+        }
+
+        .imagen2>a{
+            position: absolute;
+            color:#38def0;
+            text-decoration: none;
+            padding-top: 100px;
+            padding-left: 120px;
+        }
+
+        .imagen2>img{
+            height: 250px;
+            box-shadow: 10px 10px 0px 0px ;
+        }
+
+        /*@media screen  {
+            
+            body{
+                background-color:black;
+            }
+
+        }*/
+        
+    </style>
+    
+    <header class="encabezado" >
+
+        <div class="menu">
+            <a href="http://">Asthanga</a>
+            <a href="http://">Vinyasa</a>
+            <a href="http://">contacta</a>
+            <a href="http://">videos</a>
+        </div>
+
+
+        <div class="logo">
+            <h1>Yoga samsara</h1>
+            <p>Fluye con nosotros</p>
+        </div>
+
+
+    </header>
+
+    <hr>
+
+    <form action="">
+
+        <fieldset>
+
+            <legend>Quien Eres?</legend>
+
+            <div class="ajustar1">
+            
+                <label for="">Nombre y correo</label>
+                <input type="text" placeholder="cual es tu nombre">
+                <input type="text" class="ajustar" placeholder="cual es tu email"><br>
+                <label for="">Fecha nacimiento</label>
+                <input type="date" name="" id="">
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Que modalidad practicas</legend>
+
+            <div class="ajustar2">
+                <select name="" id="">
+                    <optgroup>
+                        <option value="">Ashtanga</option>
+                        <option value="">vinyasa</option>
+                        <option value="">natha</option>
+                        <option value="">otra</option>
+                    </optgroup>
+                </select>
+                    <textarea cols="20" name="" id=""  placeholder=" Escribe tu experiencia y aydudanos a mejorar"></textarea>
+                    <input type="text" name="" id="" placeholder="Numero de horas semanasles">
+                    <input type="button" value="Enviar datos">
+            </div>
+
+            </select>
+            
+        </fieldset>
+
+    </form>
+
+        <hr>
+
+        <div class="imagen1">
+            
+                <a href="">Ashtanga</a>
+                <img src="img/ashtanga.jpg" alt="">
+
+        </div>
+
+        <div class="imagen2">
+
+            <a href="">vinyasa</a>
+            <img src="img/vinyasha.jpg" alt="">
+
+        </div>
+
+        <hr>
+
+    <div class="encabezado1">
+
+        <div class="cuadros1">
+
+            <h3>EL yoga ofrece numeroso beneficios fisicos mentales y emocionales</h3>
+
+        </div>
+
+         <div class="cuadros2">
+
+            <ol type="I">
+                <li>Mejora la flexibilidad y la fuerza</li>
+                <li>Fortalece la postura</li>
+                <li>Alivia el dolor</li>
+                <li>Beneficia la salud cardiovascular</li>
+                <li>Mejora el equilibrio y la coordinacion</li>
+            </ol>
+
+        </div>
+
+    </div>
+
+
+</body>
+</html>
