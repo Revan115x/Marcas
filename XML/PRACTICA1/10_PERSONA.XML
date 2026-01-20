@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persona>
+    <nombre>juan</nombre>
+    <hombre/>
+    <fecha_de_nacimiento>
+        <dia>18</dia>
+        <mes>diciembre</mes>
+        <año>2000</año>
+    </fecha_de_nacimiento>
+    <ciudad>Madrid</ciudad>
+</persona>
