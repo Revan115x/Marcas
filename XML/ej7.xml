@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urbanizacion nombre="Los Olivos">
+    <edificio bloque="A">
+        <anio_construccion>2010</anio_construccion>
+        <ascensor>si</ascensor>
+        <viviendas>
+            <vivienda>
+                <puerta>1A</puerta>
+                <metros_cuadrados>70</metros_cuadrados>
+                <orientacion>Norte</orientacion>
+                <residentes>
+                    <residente dni="12345678X">
+                        <nombre>Juan Pérez</nombre>
+                        <fh_padron>2015-06-12</fh_padron>
+                    </residente>
+                    <residente dni="98765432Y">
+                        <nombre>Lucas Pérez</nombre>
+                        <fh_padron>2022-01-20</fh_padron>
+                        <dni_tutor>12345678X</dni_tutor>
+                    </residente>
+                </residentes>
+            </vivienda>
+        </viviendas>
+    </edificio>
+
+    <edificio bloque="B">
+        <anio_construccion>2012</anio_construccion>
+        <ascensor>no</ascensor>
+        <viviendas>
+            <vivienda>
+                <puerta>Bajo B</puerta>
+                <metros_cuadrados>60</metros_cuadrados>
+                <orientacion>Sur</orientacion>
+                <residentes>
+                    <residente dni="11223344Z">
+                        <nombre>Marta Gómez</nombre>
+                        <fh_padron>2018-09-30</fh_padron>
+                    </residente>
+                </residentes>
+            </vivienda>
+        </viviendas>
+    </edificio>
+</urbanizacion>

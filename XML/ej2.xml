@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+    <animal medio="terrestre">
+        <nombre>burro</nombre>
+        <n_patas>4 </n_patas>
+        <en_riesgo>no</en_riesgo>
+    </animal>
+    <animal medio="acuatico">
+        <nombre>ballena</nombre>
+        <n_patas> 0</n_patas>
+        <en_riesgo>si</en_riesgo>
+    </animal>
+    <animal medio="aereo">
+        <nombre>guacamayo</nombre>
+        <n_patas> 2</n_patas>
+        <en_riesgo>si</en_riesgo>
+    </animal>
+</catalogo>

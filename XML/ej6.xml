@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Info>
+    <Equipo>
+        <nombre>Real Madrid C.F.</nombre>
+        <ciudad>Madrid</ciudad>
+        <entrenador></entrenador>
+        <jugadores>
+            <jugador numero="7" posicion="Delantero">
+                <nombre>Vinícius Júnior</nombre>
+                <nacionalidad>Brasil</nacionalidad>
+            </jugador>
+            <jugador numero="5" posicion="Centrocampista">
+                <nombre>Jude Bellingham</nombre>
+                <nacionalidad>Inglaterra</nacionalidad>
+            </jugador>
+        </jugadores>
+    </Equipo>
+
+    <Equipo>
+        <nombre>FC Barcelona</nombre>
+        <ciudad>Barcelona</ciudad>
+        <entrenador></entrenador>
+        <jugadores>
+            <jugador numero="9" posicion="Delantero">
+                <nombre>Robert Lewandowski</nombre>
+                <nacionalidad>Polonia</nacionalidad>
+            </jugador>
+            <jugador numero="19" posicion="Extremo">
+                <nombre>Lamine Yamal</nombre>
+                <nacionalidad>España</nacionalidad>
+            </jugador>
+        </jugadores>
+    </Equipo>
+</Info>

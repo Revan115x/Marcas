@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<envio>
+    <cliente>Inmaculada Garcia</cliente>
+    <direccion>
+        <via>calle Valverde</via>
+        <numero>4</numero>
+        <datos_planta>Tercer piso, letra B</datos_planta>
+    </direccion>
+    <pedido>
+        <unidades>1</unidades>
+        <descripcion>bicicleta</descripcion>
+    </pedido>
+    <fechas>
+        <fh_pedido>12-01-2026</fh_pedido>
+        <fh_entrega_prevista>19-01-2026</fh_entrega_prevista>
+    </fechas>
+
+</envio>

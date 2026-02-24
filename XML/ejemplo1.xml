@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<e1:ejemplo xmlns:e1="ejemplo1">
+    <fut:Equipo xmlns:fut="equipo">
+        <fut:nombre>Real Madrid</fut:nombre>
+        <fut:entrenador>José Mourinho</fut:entrenador>
+            <fut:plantilla>
+                <fut:jugador class="1">Casillas</fut:jugador>
+                <fut:jugador class="2">pepe</fut:jugador>
+                <fut:jugador class="3">Sergio Ramos</fut:jugador>
+                <fut:jugador class="4">Marcelo</fut:jugador>
+                <fut:jugador class="5">Carvajal</fut:jugador>
+                <fut:jugador class="6">Benzema</fut:jugador>
+                <fut:jugador class="7">Cristiano Ronaldo</fut:jugador>
+                <fut:jugador class="8">James Rodriguez</fut:jugador>
+                <fut:jugador class="9">Gareth Bale</fut:jugador>
+                <fut:jugador class="10">Kross</fut:jugador>
+                <fut:jugador class="11">Modric</fut:jugador>
+            </fut:plantilla>
+    </fut:Equipo>
+
+     <hard:Equipo xmlns:hard="hardware">
+
+        <hard:ID>345</hard:ID>
+        <hard:cpu>Intel i7</hard:cpu>
+        <hard:ram>16GB</hard:ram>
+        <hard:DiscoDUro>1TB</hard:DiscoDUro>
+        <hard:GPU>RTX 4090</hard:GPU> 
+
+    </hard:Equipo>
+
+</e1:ejemplo>
+   

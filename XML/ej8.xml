@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zoo>
+    <jaulas>
+        <jaula numero="11">
+            <metros>50</metros>
+            <seguridad>foso</seguridad>
+            <animales>
+                <animal id="A001">
+                    <especie>León</especie>
+                    <fh_nac>2018-05-15</fh_nac>
+                    <id_padre>A000</id_padre>
+                    <id_madre>A002</id_madre>
+                </animal>
+                <animal id="A005">
+                    <especie>León</especie>
+                    <fh_nac>2023-10-01</fh_nac>
+                    <id_padre>A001</id_padre>
+                    <id_madre>A002</id_madre>
+                </animal>
+            </animales>
+        </jaula>
+    </jaulas>
+
+    <empleados>
+        <empleado id="E01">
+            <nombre_emple>Lucía</nombre_emple>
+            <apellidos_emple>Fernández Pérez</apellidos_emple>
+            <cargo>Veterinaria</cargo>
+        </empleado>
+    </empleados>
+</zoo>

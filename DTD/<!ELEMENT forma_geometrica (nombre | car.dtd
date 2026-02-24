@@ -1,0 +1,16 @@
+<!ELEMENT forma_geometrica (nombre | caracteristicas | numero_de_lados)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT numero_de_lados (#PCDATA)>
+
+
+
+<!ELEMENT ciudades (ciudad)>
+<!ELEMENT ciudad (nombre, capital)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT capital EMPTY>
+
+<!ELEMENT saludos (saludo)>
+<!ELEMENT saludo (#PCDATA)>
+<!ATTLIST saludo idioma (ALE | FRA | ITA) "ESP">
