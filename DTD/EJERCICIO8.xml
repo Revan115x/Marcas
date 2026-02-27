@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libro-recetas>
+<receta>
+    <titulo>Tortilla de patatas</titulo>
+    <ingrediente>Patatas</ingrediente>
+    <ingrediente>Huevos</ingrediente>
+    <ingrediente>Aceite de oliva</ingrediente>
+    <ingrediente>Sal</ingrediente>
+    <preparacion>
+        Freír las patatas cortadas en aceite caliente.
+        Batir los huevos y mezclar con las patatas.
+        Cuajar la mezcla en la sartén.
+    </preparacion>
+    <truco>Usar patatas cortadas finas para mejor textura</truco>
+</receta>
+</libro-recetas>

@@ -1,0 +1,12 @@
+<!ELEMENT pelicula (titulo, titulo_original?, genero+, clasificacion?, web?, cartel?, año?)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT titulo_original (#PCDATA)>
+<!ELEMENT genero (#PCDATA)>
+<!ELEMENT clasificacion (#PCDATA)>
+<!ATTLIST clasificacion recomendacion (tp | 8 | 12 | 16 | 18) #IMPLIED>
+<!ELEMENT web (#PCDATA)>
+<!ELEMENT cartel (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+<!ATTLIST año valor CDATA "2025">
+<!ELEMENT reparto (actor+)>
+<!ELEMENT actor (#PCDATA)>
