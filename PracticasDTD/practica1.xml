@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<cartelera>
+  <pelicula codigo="p1" duracion="118" anio="2022">
+    <titulo>EL TRIÁNGULO DE LA TRISTEZA</titulo>
+    <titulo_original>Triangle of Sadness</titulo_original>
+    <nacionalidad>Suecia</nacionalidad>
+    <genero>Drama</genero>
+    <genero>Sátira</genero>
+    <genero>Comedia</genero>
+    <clasificacion edad="18"/>
+    <sinopsis>
+        Tras la Semana de la moda, Carl y Yaya, pareja de modelos e influencers, son invitados a un yate en un crucero de lujo. Mientras que la tripulación brinda todas las atenciones necesarias a los ricos invitados, el capitán se niega a salir de su cabina, a pesar de la llegada inminente de la célebre cena de gala. Los eventos toman un giro inesperado y el equilibrio de poder se invierte cuando se levanta una tormenta que pone en peligro el confort de los pasajeros.
+    </sinopsis>
+    <director>Ruben Östlund</director>
+    <reparto>
+      <actor>Harris Dickinson</actor>
+      <actor>Woody Harrelson</actor>
+      <actriz>Charlbi Dean</actriz>
+    </reparto>
+    <web>https://www.youtube.com/watch?v=izxl6zgYnjs</web>
+    <cartel>triangulo.jpg</cartel>
+  </pelicula>
+  <pelicula codigo="p17" duracion="110">
+    <titulo>Los domingos</titulo>
+    <nacionalidad>España</nacionalidad>
+    <genero>Drama</genero>
+    <sin_clasificar/>
+    <sinopsis>
+      Ainara (Blanca Soroa), una joven idealista y brillante de 17 años, ha de decidir qué carrera universitaria estudiará. O, al menos, eso espera su familia que haga.
+    </sinopsis>
+    <director>Alauda Ruiz de Azúa</director>
+    <reparto>
+      <actriz>Blanca Soroa</actriz>
+      <actriz>Patricia López Arnaiz</actriz>      
+      <actor>Miguel Garcés</actor>
+      <actriz></actriz>
+      <actor>Nagore Arnaburun</actor>
+    </reparto>
+  </pelicula>
+</cartelera>
